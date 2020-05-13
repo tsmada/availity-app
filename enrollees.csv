@@ -1,0 +1,10 @@
+User_Id,First_Last,Version,Insurance_Company
+"1","george bush",1,"Aetna"
+"2","bill clinton",1,"Blue Cross"
+"3","barack obama",1,"Cigna"
+"4","donald trump",1,"Allied"
+"1","george bush",2,"Aetna"
+"5","gary johnson",1,"Aetna"
+"4","donald trump",2,"Blue Cross"
+"6","adam struthers",1,"Aetna"
+
