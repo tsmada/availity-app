@@ -55,11 +55,11 @@ class Register extends React.Component {
     if (submitted && !registered) {
       return (
         <div>Something went wrong with your registration...</div>
-        )
+      );
     }
     return (
       <div className="col-md-6 col-md-offset-3 pt-10 m-auto">
-        <form className="w-full max-w-lg" onSubmit={(e) => {this.handleSubmit(e)}}>
+        <form className="w-full max-w-lg" onSubmit={(e) => { this.handleSubmit(e); }}>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
@@ -120,7 +120,7 @@ class Register extends React.Component {
                 State
               </label>
               <div className="relative">
-                <select value={user.state.value} onChange={(e) => {this.handleChange(e)}} name="state" className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                <select value={user.state.value} onChange={(e) => { this.handleChange(e); }} name="state" className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                   <option id="florida" name="florida">Florida</option>
                   <option id="missouri" name="missouri">Missouri</option>
                   <option id="texas" name="texas">Texas</option>
@@ -137,9 +137,9 @@ class Register extends React.Component {
               <input name="zip" onChange={(e) => { this.handleChange(e); }} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="32217" />
             </div>
           </div>
-          <div class="md:flex md:items-center">
-            <div class="full-w pt-10 pb-10">
-              <button onClick={(e) => {this.handleSubmit(e)}} class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+          <div className="md:flex md:items-center">
+            <div className="full-w pt-10 pb-10">
+              <button onClick={(e) => { this.handleSubmit(e); }} className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
                 Submit
               </button>
             </div>

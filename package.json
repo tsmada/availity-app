@@ -15,16 +15,20 @@
     "history": "^4.10.1",
     "lodash": "^4.17.15",
     "now": "^19.0.1",
+    "nyc": "^15.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^4.0.5",
     "tailwindcss": "^1.4.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test-cov": "react-scripts test --coverage --reporter=html",
     "eject": "react-scripts eject",
     "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.generated.css"
   },
