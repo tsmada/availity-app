@@ -4,12 +4,14 @@
 
 `node lisp.js`
 
-Outputs
+Returns true/false based on condition of parens
 
 # 5. Frontend Engineer
 
-`npm install
-npm start`
+## Installation
+
+```npm install
+npm start```
 
 Runs in dev mode. Open browser to localhost:3000.
 
