@@ -1,5 +1,4 @@
 import fs from 'fs';
-import through from 'through2';
 import csvParser from 'csv-parser';
 import fastcsv from 'fast-csv';
 import _ from 'lodash';
