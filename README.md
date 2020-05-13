@@ -13,6 +13,8 @@ npm start`
 
 Runs in dev mode. Open browser to localhost:3000.
 
+Production deployment: https://availity-app.code-lorde.now.sh / https://availity-app.now.sh
+
 Create-react-app based project. TailwindCSS used for styling.
 
 Basic state management on each container. Needs flux/redux or composition/prop drilling for
