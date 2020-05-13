@@ -13,7 +13,14 @@ npm start`
 
 Runs in dev mode. Open browser to localhost:3000.
 
-Production deployment: https://availity-app.code-lorde.now.sh / https://availity-app.now.sh
+[Production Deployment](https://availity-app.code-lorde.now.sh)
+[Demo App](https://availity-app.now.sh
+
+## Home
+![alt text](https://github.com/tsmada/availity-app/raw/master/public/Home.png "Home")
+
+## Register
+![alt text](https://github.com/tsmada/availity-app/raw/master/public/Register.png "Register")
 
 Create-react-app based project. TailwindCSS used for styling.
 
