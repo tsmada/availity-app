@@ -10,8 +10,8 @@ Returns true/false based on condition of parens
 
 ## Installation
 
-```npm install
-npm start```
+`npm install`
+`npm start`
 
 Runs in dev mode. Open browser to localhost:3000.
 
