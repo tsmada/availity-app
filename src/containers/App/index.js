@@ -7,7 +7,6 @@ import Footer from '../../components/Footer';
 import Home from '../Home';
 import Login from '../Login';
 import Register from '../Register';
-import Four from '../404';
 
 const App = ({ history }) => (
   <div>
